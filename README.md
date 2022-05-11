@@ -1,9 +1,44 @@
 # Cocktail Recipes
 
+Lookup cocktail recipes with ingredients and instructions. Searchable by direct name, or type.
+
+Live Project at: <a href="https://brettcrafton.com/Portfolio/Bar%20API/index.html" target="_blank" rel="noreferrer"> https://brettcrafton.com/Portfolio/Bar%20API/index.html </a>
+
 <a href="https://brettcrafton.com/Portfolio/Bar%20API/index.html" target="_blank" rel="noreferrer"> <img src="https://github.com/BrettCrafton/BrettCrafton/blob/main/assets/Cocktail%20Recipe%20gif.gif?raw=true" alt="project example"/> </a>
 
-Lookup cocktail recipes with ingredients and instructions. Utilizing the API from https://www.thecocktaildb.com.
+## How It's Made:
 
-Searchable by direct name, or type.
+**Tech used:** HTML, CSS, JavaScript
 
-Live Site at: <a href="https://brettcrafton.com/Portfolio/Bar%20API/index.html" target="_blank" rel="noreferrer"> BrettCrafton.com </a> 
+Utilized the API from https://www.thecocktaildb.com.
+
+API fetch request saved into variable object on user search. Variable updated with each user search. Use dot notation and parsing though arrays with the carousel to render the object data to the DOM. Background and styling for looks. 
+
+## Optimizations:
+
+Make OOP. Load all data initially for parsing without a search from user. Possibly make carousel rotate at end to beginning/beginning to end instead of limited (like my Harry Potter carousel). Correct first slide to show 1/qty on intitial search instead of infinity. With time, make more responsive like shrink image size on different viewports. Could make a real-time search bar/results. Simple but not recommended is use keypress event listener instead of on click of "search". More appropriate way would be to build out function on keyup or similar design. Would need to build better filter parameters to do this as well.
+
+## Lessons Learned:
+
+Fetch requests. Interacting with JSON API data. Filtering/utilizing that JSON data. Some new style and transparency options in CSS. Light text looks much better when you overlay your background picture with an opaque black gradient (obviously, but actually doing was a first).
+
+## APP Use:
+
+Searchable by direct name, or type. Click search for all data or enter text to search by. 
+
+Will provide following data if in API:
+
+<ul>
+  <li>Name</li>
+  <li>Image</li>
+  <li>Ingredients</li>
+  <li>Instructions</li>
+</ul>
+
+## Other Projects:
+
+**Magical World of Harry Potter:** https://github.com/BrettCrafton/Magical-World-of-Harry-Potter
+
+**Rick and Morty Parasite Detector:** https://github.com/BrettCrafton/Rick-and-Morty-Parasite-Detector
+
+**NASA APOD:** https://github.com/BrettCrafton/NASA-APOD
