@@ -12,7 +12,7 @@ Live Project at: <a href="https://brettcrafton.com/Portfolio/Bar%20API/index.htm
 
 Utilized the API from https://www.thecocktaildb.com.
 
-API fetch request saved into variable object on user search. Variable updated with each user search. Use dot notation and parsing though arrays with the carousel to render the object data to the DOM. Background and styling for looks. 
+User's text entry into input field is saved into variable and added to end of URL for fetch request to API. API fetch request data saved into variable object on user search. Variable updated with each user search. Use dot notation and parsing though arrays with the carousel to render the object data to the DOM. Background and styling for looks. 
 
 ## Optimizations:
 
