@@ -37,6 +37,8 @@ Will provide following data if in API:
 
 ## Other Projects:
 
+**You Can't Afford Rent:** https://github.com/BrettCrafton/You-Cant-Afford-Rent
+
 **Magical World of Harry Potter:** https://github.com/BrettCrafton/Magical-World-of-Harry-Potter
 
 **Rick and Morty Parasite Detector:** https://github.com/BrettCrafton/Rick-and-Morty-Parasite-Detector
